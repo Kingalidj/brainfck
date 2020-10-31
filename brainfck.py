@@ -72,7 +72,7 @@ def compute(code, show = False):
             if stack[pointer] < 0: stack[pointer] = 255
         if c =='.':
             output += chr(stack[pointer])
-            print(f"Output: {output}")
+            #print(f"Output: {output}")
         if c ==',':
             stack[pointer] = ord(input("Input: "))
         if c == ']':
